@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+body {
+	background-image: url(7044912523.png);
+	background-repeat: no-repeat;
+}
+</style>
+</head>
+
+<body>
+<p>Hello world.-from  毓珮</p>
+<script type = "text/javascript">
+function AlertIt(){
+	//亂數 var
+	 myrandom = Math.round(Math.random()*2)
+	//一些白痴的話用矩陣
+	var messages=new Array()
+	messages[0]="想知道些什麼嗎"
+	messages[1]="你很無聊嗎,來看個片吧"
+	messages[2]="覺得太安靜了嗎"
+	
+	var links = new Array()
+	links[0] = "https://www.facebook.com/"
+	links[1] = "https://tw.yahoo.com/"
+	links[2] = "https://www.youtube.com/?gl=TW&hl=zh-tw"
+	
+	//呼叫確認視窗
+	var answer = confirm(messages[myrandom])
+	if(answer){
+		window.location = links [myrandom]
+	}
+	//
+}
+</script>
+
+<table width="100%"height="100%" border="0"cellspacing="0"cellpadding="0">
+  <tr>
+    <td align ="center"valign="middle"><a href="javascript:AlertIt();"><img src="cat1.png"width="33%"height="auto"><p></p></a></td>
+  </tr>
+</table>
+
+
+
+</body>
+</html>
